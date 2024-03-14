@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("https://wallpapers.com/images/featured/harry-potter-desktop-vtho1d6dbpcfzv5v.jpg");
+    background-repeat: no-repeat;
+    
+}
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+#pergunta {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+
+}
+#opcoes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.correto{
+    background-color: aqua;
+
+}
+.incorreto{
+    background-color: red;
+
+}
+h1{
+    color: white;
+}
+footer{
+    color: white;
+}
+
+
